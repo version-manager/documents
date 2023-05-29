@@ -1,3 +1,3 @@
-# specification
+# documents
 
-Version managers and meta-version managers are plentiful in the developer ecosystem. These documents track the most popular ones for the most popular languages and records their compatibility and behavior.
+These documents intend to document the features, tradeoffs, and performance of the most relevant _meta version managers_, or version managers that manage more than one language.
