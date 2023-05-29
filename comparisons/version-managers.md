@@ -2,38 +2,45 @@
 
 ## NodeJS
 
-| Name                                                  | `.node-version` | `package.json` | `.nvmrc`        |
-|-------------------------------------------------------|-----------------|----------------|-----------------|
-| [nvm](https://github.com/nvm-sh/nvm)                  | ✅               | ❌              | ✅               |
-| [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) | ✅<sup>[1]</sup> | ❌              | ✅<sup>[1]</sup> |
-| [rtx](https://github.com/jdxcode/rtx)                 | ✅<sup>[2]</sup> | ❌              | ✅<sup>[2]</sup> |
-| [Woof](https://github.com/version-manager/woof)       | ❌               | ❌              | ❌               |
-| [n](https://github.com/tj/n)                          | ❔               | ❔              | ❔               |
-| [nvm.fish](https://github.com/jorgebucaran/nvm.fish)  | ❔               | ❔              | ❔               |
-| [nvmw](https://github.com/hakobera/nvmw)              | ❔               | ❔              | ❔               |
-| [avn](https://github.com/wbyoung/avn)                 | ❔               | ❔              | ❔               |
-| [fnm](https://github.com/Schniz/fnm)                  | ❔               | ❔              | ❔               |
-| [nave](https://github.com/isaacs/nave)                | ❔               | ❔              | ❔               |
-| [nodist](https://github.com/nullivex/nodist)          | ❔               | ❔              | ❔               |
-| [nodenv](https://github.com/nodenv/nodenv)            | ❔               | ❔              | ❔               |
-| [nodebrew](https://github.com/hokaccha/nodebrew)      | ❔               | ❔              | ❔               |
+| Name                                                     | Stars  | `.node-version` | `package.json` | `.nvmrc`        |
+|----------------------------------------------------------|--------|-----------------|----------------|-----------------|
+| [nvm](https://github.com/nvm-sh/nvm)                     | 67400+ | ✅               | ❌              | ✅               |
+| [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs)    | 735+   | ✅<sup>[1]</sup> | ❌              | ✅<sup>[1]</sup> |
+| [rtx](https://github.com/jdxcode/rtx)                    | -      | ✅<sup>[2]</sup> | ❌              | ✅<sup>[2]</sup> |
+| [Woof](https://github.com/version-manager/woof)          | -      | ❌               | ❌              | ❌               |
+| [n](https://github.com/tj/n)<sup>3</sup>                 | 17600+ | ✅               | ✅              | ✅               |
+| [nvm.fish](https://github.com/jorgebucaran/nvm.fish)     | 1600+  | ✅               | ❌              | ✅               |
+| [avn](https://github.com/wbyoung/avn)                    | 1100+  | ✅               | ❌              | ❔               |
+| [fnm](https://github.com/Schniz/fnm)                     | 11900+ | ✅               | ❌              | ✅               |
+| [nave](https://github.com/isaacs/nave)<sup>4</sup>       | 1600+  | ❌               | ❌              | ✅               |
+| [nodist](https://github.com/nullivex/nodist)<sup>5</sup> | 1500+  | ✅               | ✅              | ❌               |
+| [nodenv](https://github.com/nodenv/nodenv)<sup>6</sup>   | 2000+  | ✅               | ❌              | ❌               |
+| [nodebrew](https://github.com/hokaccha/nodebrew)         | 1000+  | ❌               | ❌              | ❌               |
+| [nvmw](https://github.com/hakobera/nvmw)                 | 672+   | ❌               | ❌              | ❌               |
 
 <sup>[1]</sup> [asdf-nodejs/bin/list-legacy-filenames](https://github.com/asdf-vm/asdf-nodejs/blob/master/bin/list-legacy-filenames)
 
 <sup>[2]</sup> [rtx#legacy-version-files](https://github.com/jdxcode/rtx#legacy-version-files)
 
+<sup>[3]</sup> `.n-node-version`
+
+<sup>[4]</sup> `.naverc`
+
+<sup>[5]</sup> `.npm-version`, `NODIST_NODE_VERSION`, `NODIST_NPM_VERSION`
+
+<sup>[6]</sup> `NODENV_VERSION`
+
+More info at [node-version-usage](https://github.com/shadowspawn/node-version-usage).
+
 ## Python
 
-| Name                                                         | `.python-version` | `pyproject.toml` |
-|--------------------------------------------------------------|-------------------|------------------|
-| [pyenv](https://github.com/pyenv/pyenv)                      | ✅                 | ❌                |
-| [asdf-python](https://github.com/asdf-community/asdf-python) | ✅<sup>[1]</sup>   | ❌                |
-| [rtx](https://github.com/jdxcode/rtx)                        | ✅<sup>[2]</sup>   | ❌                |
-| [Woof](https://github.com/version-manager/woof)              | ❌                 | ❌                |
-[asdf-python](https://github.com/asdf-vm/asdf-python)
-[pyenv](https://github.com/pyenv/pyenv)
-[p](https://github.com/qw3rtman/p)
-[pvm](https://github.com/DrPandemic/pvm)
+| Name                                                         | Stars  | `.python-version` | `pyproject.toml` |
+|--------------------------------------------------------------|--------|-------------------|------------------|
+| [pyenv](https://github.com/pyenv/pyenv)                      | 32000+ | ✅                 | ❌                |
+| [asdf-python](https://github.com/asdf-community/asdf-python) | 519+   | ✅<sup>[1]</sup>   | ❌                |
+| [rtx](https://github.com/jdxcode/rtx)                        |        | ✅<sup>[2]</sup>   | ❌                |
+| [Woof](https://github.com/version-manager/woof)              |        | ❌                 | ❌                |
+| [p](https://github.com/qw3rtman/p)                           | 772+   | ❌                 | ❌                |
 
 <sup>[1]</sup> [asdf-python/bin/list-legacy-filenames](https://github.com/asdf-community/asdf-python/blob/master/bin/list-legacy-filenames)
 
@@ -41,18 +48,15 @@
 
 ## Ruby
 
-| Name                                                | `.ruby-version` | `Gemfile`       |
-|-----------------------------------------------------|-----------------|-----------------|
-| [rbenv](https://github.com/rbenv/rbenv)             | ✅               | ❌               |
-| [rvm](https://github.com/rvm/rvm)                   | ✅               | ❌               |
-| [asdf-ruby](https://github.com/asdf-vm/asdf-nodejs) | ✅<sup>[1]</sup> | ✅<sup>[1]</sup> |
-| [rtx](https://github.com/jdxcode/rtx)               | ✅<sup>[2]</sup> | ✅<sup>[2]</sup> |
-| [Woof](https://github.com/version-manager/woof)     | ❌               | ❌               |
-[asdf-ruby](https://github.com/asdf-vm/asdf-ruby)
-[rvm](https://rvm.io)
-[rbenv](https://github.com/rbenv/rbenv)
-[chruby](https://github.com/postmodern/chruby)
-[frum](https://github.com/TaKO8Ki/frum)
+| Name                                                | Stars  | `.ruby-version` | `Gemfile`       |
+|-----------------------------------------------------|--------|-----------------|-----------------|
+| [rbenv](https://github.com/rbenv/rbenv)             | 15100+ | ✅               | ❌               |
+| [rvm](https://github.com/rvm/rvm)                   | 4900+  | ✅               | ❌               |
+| [asdf-ruby](https://github.com/asdf-vm/asdf-nodejs) | 524+   | ✅<sup>[1]</sup> | ✅<sup>[1]</sup> |
+| [rtx](https://github.com/jdxcode/rtx)               |        | ✅<sup>[2]</sup> | ✅<sup>[2]</sup> |
+| [Woof](https://github.com/version-manager/woof)     |        | ❌               | ❌               |
+| [chruby](https://github.com/postmodern/chruby)      | 2700+  | ✅               | ❌               |
+| [frum](https://github.com/TaKO8Ki/frum)             | 542+   | ✅               | ❌               |
 
 <sup>[1]</sup> [asdf-ruby/bin/list-legacy-filenames](https://github.com/asdf-community/asdf-ruby/blob/master/bin/list-legacy-filenames)
 
@@ -60,18 +64,17 @@
 
 ## Golang
 
-| Name                                                  | `.go-version`   | `go.mod`        |
-|-------------------------------------------------------|-----------------|-----------------|
-| [goenv](https://github.com/syndbg/goenv)              | ✅               | ❌               |
-| [asdf-golang](https://github.com/asdf-vm/asdf-golang) | ✅<sup>[1]</sup> | ✅<sup>[1]</sup> |
-| [rtx](https://github.com/jdxcode/rtx)                 | ✅<sup>[2]</sup> | ✅<sup>[2]</sup> |
-| [Woof](https://github.com/version-manager/woof)       | ❌               | ❌               |
-| [gvm](https://github.com/moovweb/gvm)
-| [stefanmaric/g](https://github.com/stefanmaric/g)
-| [voidint/g](https://github.com/voidint/g)
-| [goenv](https://github.com/syndbg/goenv)
-| [goup](https://github.com/owenthereal/goup)
-| [oo](https://github.com/hit9/oo)
+| Name                                                 | Stars | `.go-version`   | `go.mod`        | `.gvm_local` | `GOENV_VERSION` |
+|------------------------------------------------------|-------|-----------------|-----------------|--------------|-----------------|
+| [asdf-golang](https://github.com/kennyp/asdf-golang) | 367+  | ✅               | ✅<sup>[1]</sup> | ❌            | ❌               |
+| [rtx](https://github.com/jdxcode/rtx)                |       | ✅<sup>[2]</sup> | ✅<sup>[2]</sup> | ❔            | ❔               |
+| [Woof](https://github.com/version-manager/woof)      |       | ❌               | ❌               | ❌            | ❌               |
+| [gvm](https://github.com/moovweb/gvm)                | 8500+ | ❌               | ❌               | ✅            | ❌               |
+| [stefanmaric/g](https://github.com/stefanmaric/g)    | 741+  | ❌               | ❌               | ❌            | ❌               |
+| [voidint/g](https://github.com/voidint/g)            | 1100+ | ❌               | ❌               | ❌            | ❌               |
+| [goenv](https://github.com/syndbg/goenv)             | 1600+ | ✅               | ✅               | ❌            | ✅               |
+| [goup](https://github.com/owenthereal/goup)          | 427+  | ❌               | ❌               | ❌            | ❌               |
+| [oo](https://github.com/hit9/oo)                     | 93+   | ❌               | ❌               | ❌            | ❌               |
 
 <sup>[1]</sup> [asdf-golang/bin/list-legacy-filenames](https://github.com/asdf-community/asdf-golang/blob/master/bin/list-legacy-filenames), with `ASDF_GOLANG_MOD_VERSION_ENABLED=true`
 
@@ -79,27 +82,28 @@
 
 ## Deno
 
-| Name                                                     | `.deno-version` |
-|----------------------------------------------------------|-------------|
-| [asdf-deno](https://github.com/asdf-community/asdf-deno) | ✅           |
-| [justjavac/dvm](https://github.com/justjavac/dvm)        | ✅           |
-| [ghosind/dvm](https://github.com/ghosind/dvm)            | ✅           |
+| Name                                                     | Stars | `.deno-version` | `.dvmrc` |
+|----------------------------------------------------------|-------|-----------------|----------|
+| [asdf-deno](https://github.com/asdf-community/asdf-deno) | 108+  | ❌               | ❌        |
+| [justjavac/dvm](https://github.com/justjavac/dvm)        | 569+  | ✅               | ✅        |
+| [ghosind/dvm](https://github.com/ghosind/dvm)            | 26+   | ✅               | ✅        |
 
 ## PHP
 
-| Name                                                   | `.php-version` |
-|--------------------------------------------------------|-------------|
-| [asdf-php](https://github.com/asdf-community/asdf-php) | ✅           |
-| [phpenv](https://github.com/phpenv/phpenv)             | ✅           |
-| [phpbrew](https://github.com/phpbrew/phpbrew)          | ✅           |
-| [php-version](https://github.com/wilmoore/php-version) | ✅           |
+| Name                                                   | Stars | `.php-version` | `.phpenv-version` | `PHPENV_VERSION` |
+|--------------------------------------------------------|-------|----------------|-------------------|------------------|
+| [asdf-php](https://github.com/asdf-community/asdf-php) | 175+  | ❌              | ❌                 | ❌                |
+| [CHH/phpenv](https://github.com/CHH/phpenv)            | 570+  | ❌              | ❌                 | ❌                |
+| [phpenv/phpenv](https://github.com/phpenv/phpenv)      | 1400+ | ❌              | ✅                 | ✅                |
+| [phpbrew](https://github.com/phpbrew/phpbrew)          | 5100+ | ❌              | ❌                 | ❌                |
+| [php-version](https://github.com/wilmoore/php-version) | 675+  | ❌              | ❌                 | ❌                |
 
 ## Java
 
-| Name                                              | `.java-version` |
-|---------------------------------------------------|-------------|
-| [asdf-java](https://github.com/halcyon/asdf-java) | ✅           |
-| [sdkman](https://sdkman.io)                       | ✅           |
-| [jenv.be](https://www.jenv.be)                    | ✅           |
-| [jenv](https://github.com/linux-china/jenv)       | ✅           |
-| [jabba](https://github.com/shyiko/jabba)          | ✅           |
+| Name                                              | Stars | `.java-version` | `.jabbarc` |
+|---------------------------------------------------|-------|-----------------|------------|
+| [asdf-java](https://github.com/halcyon/asdf-java) | 317+  | ✅               | ❌          |
+| [sdkman](https://sdkman.io)                       |       | ❌               | ❌          |
+| [jenv.be](https://github.com/jenv/jenv)           | 4900+ | ✅               | ❌          |
+| [jenv](https://github.com/linux-china/jenv)       | 601+  | ❌               | ❌          |
+| [jabba](https://github.com/shyiko/jabba)          | 2600+ | ❌               | ✅          |

@@ -21,7 +21,18 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 |-------------------------------------------------|-----|-----|-----|
 | [asdf](https://github.com/asdf-vm/asdf)         | ✅   | ❌   | ❌   |
 | [sdkman](https://github.com/sdkman/sdkman-cli)  | ✅   | ❌   | ❌   |
-| [rtx](https://github.com/jdxcode/rtx)           | ✅   | ❌   | ❌   |
+| [rtx](https://github.com/jdxcode/rtx)           | ✅   | ❔   | ❌   |
 | [Hermit](https://github.com/cashapp/hermit)     | ✅   | ❌   | ❌   |
 | [aqua](https://github.com/aquaproj/aqua)        | ✅   | ✅   | ❌   |
 | [Woof](https://github.com/version-manager/woof) | ✅   | ✅   | ❌   |
+
+
+## Custom
+
+## sdkman
+
+- Uses `.sdkmanrc`
+
+## rtx
+
+- Uses `.rtx.toml`
