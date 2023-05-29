@@ -9,7 +9,7 @@
 | Name                                            | Comments | Latest          | Fallback Versions | Fuzzy Versions  | lts             | system          |
 |-------------------------------------------------|----------|-----------------|-------------------|-----------------|-----------------|-----------------|
 | [asdf](https://github.com/asdf-vm/asdf)         | ✅        | ✅               | ✅                 | ❌               | ❔               | ✅               |
-| [rtx](https://github.com/jdxcode/rtx)           | ✅        | ✅               | ❌                 | ✅               | ✅               | ❌               |
+| [rtx](https://github.com/jdxcode/rtx)           | ✅        | ✅               | ❌                 | ✅               | ✅               | ✅               |
 | [Woof](https://github.com/version-manager/woof) | ✅        | ❌<sup>[1]</sup> | ✅                 | ❌<sup>[1]</sup> | ❌<sup>[1]</sup> | ❌<sup>[1]</sup> |
 
 <sup>[1]</sup> Planned
