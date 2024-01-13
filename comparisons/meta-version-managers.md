@@ -10,7 +10,7 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 | ----------------------------------------------- | ------------ | ----------- | ------ | --------------------- |
 | [asdf](https://github.com/asdf-vm/asdf)         | 17,000+      | Bash        | Shim   | ✅                     |
 | [sdkman](https://github.com/sdkman/sdkman-cli)  | 5,000+       | Bash,Groovy | Shim   | ❌                     |
-| [rtx](https://github.com/jdxcode/rtx)           | 2,000+       | Rust        | PATH   | ✅                     |
+| [mise](https://github.com/jdxcode/mise)           | 2,000+       | Rust        | PATH   | ✅                     |
 | [Hermit](https://github.com/cashapp/hermit)     | 500+         | Go,HCL      | ❔      | ❌                     |
 | [aqua](https://github.com/aquaproj/aqua)        | 300+         | Go          | ❔      | ❌                     |
 | [proto](https://github.com/moonrepo/proto)      | 163+         | Rust        | ?      | ❌                     |
@@ -22,12 +22,11 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 | ----------------------------------------------- | --- | --- | --- |
 | [asdf](https://github.com/asdf-vm/asdf)         | ✅   | ❌   | ❌   |
 | [sdkman](https://github.com/sdkman/sdkman-cli)  | ✅   | ❌   | ❌   |
-| [rtx](https://github.com/jdxcode/rtx)           | ✅   | ❔   | ❌   |
+| [mise](https://github.com/jdxcode/mise)           | ✅   | ❔   | ❌   |
 | [Hermit](https://github.com/cashapp/hermit)     | ✅   | ❌   | ❌   |
 | [aqua](https://github.com/aquaproj/aqua)        | ✅   | ✅   | ❌   |
 | [proto](https://github.com/moonrepo/proto)      | ✅   | ❔   | ❔   |
 | [Woof](https://github.com/version-manager/woof) | ✅   | ✅   | ❌   |
-
 
 ## Custom
 
@@ -35,6 +34,6 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 
 - Uses `.sdkmanrc`
 
-## rtx
+## mise
 
-- Uses `.rtx.toml`
+- Uses `.mise.toml`
