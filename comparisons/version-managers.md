@@ -8,13 +8,13 @@
 | [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) | 735+   | ✅[1]            | ❌              | ✅[1]     |
 | [mise](https://github.com/jdxcode/mise)               | -      | ✅[2]            | ❌              | ✅[2]     |
 | [Woof](https://github.com/version-manager/woof)       | -      | ❌               | ❌              | ❌        |
-| [n](https://github.com/tj/n)3                         | 17600+ | ✅               | ✅              | ✅        |
+| [n](https://github.com/tj/n)\[3]                         | 17600+ | ✅               | ✅              | ✅        |
 | [nvm.fish](https://github.com/jorgebucaran/nvm.fish)  | 1600+  | ✅               | ❌              | ✅        |
 | [avn](https://github.com/wbyoung/avn)                 | 1100+  | ✅               | ❌              | ❔        |
 | [fnm](https://github.com/Schniz/fnm)                  | 11900+ | ✅               | ❌              | ✅        |
-| [nave](https://github.com/isaacs/nave)4               | 1600+  | ❌               | ❌              | ✅        |
-| [nodist](https://github.com/nullivex/nodist)5         | 1500+  | ✅               | ✅              | ❌        |
-| [nodenv](https://github.com/nodenv/nodenv)6           | 2000+  | ✅               | ❌              | ❌        |
+| [nave](https://github.com/isaacs/nave)\[4]               | 1600+  | ❌               | ❌              | ✅        |
+| [nodist](https://github.com/nullivex/nodist)\[5]         | 1500+  | ✅               | ✅              | ❌        |
+| [nodenv](https://github.com/nodenv/nodenv)\[6]           | 2000+  | ✅               | ❌              | ❌        |
 | [nodebrew](https://github.com/hokaccha/nodebrew)      | 1000+  | ❌               | ❌              | ❌        |
 | [nvmw](https://github.com/hakobera/nvmw)              | 672+   | ❌               | ❌              | ❌        |
 
