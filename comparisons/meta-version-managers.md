@@ -13,7 +13,7 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 | [mise](https://github.com/jdxcode/mise)           | 2,000+       | Rust        | PATH   | ✅                     |
 | [Hermit](https://github.com/cashapp/hermit)     | 500+         | Go,HCL      | ❔      | ❌                     |
 | [aqua](https://github.com/aquaproj/aqua)        | 300+         | Go          | ❔      | ❌                     |
-| [proto](https://github.com/moonrepo/proto)      | 163+         | Rust        | ?      | ❌                     |
+| [proto](https://github.com/moonrepo/proto)      | 445+         | Rust        | ?      | ❌                     |
 | [Woof](https://github.com/version-manager/woof) | 21+          | Bash,jq     | PATH   | ✅                     |
 
 ## Supported Interfaces
@@ -30,10 +30,20 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 
 ## Custom
 
-## sdkman
+### sdkman
 
 - Uses `.sdkmanrc`
 
-## mise
+### mise
 
 - Uses `.mise.toml`
+
+### proto
+
+[It checks in order:](https://moonrepo.dev/docs/proto/detection)
+
+- CLI argument
+- `PROTO_*_VERSION` environment variable
+- `.prototools` (local)
+- version manager configs (e.g. `.nvmrc`) & manifest files (e.g. `package.json`)
+- `~/.proto/.prototools` (global)
