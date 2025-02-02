@@ -9,11 +9,16 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 | Name                                            | GitHub Stars | Language    | Method | Uses `.tool-versions` |
 | ----------------------------------------------- | ------------ | ----------- | ------ | --------------------- |
 | [asdf](https://github.com/asdf-vm/asdf)         | 17,000+      | Bash        | Shim   | ✅                     |
+| [mise](https://github.com/jdx/mise)             | 13,000+      | Rust        | PATH   | ✅                     |
+| [pkgx](https://github.com/pkgxdev/pkgx)         | 9,200+       | Rust        | ❔     | ❌                     |
 | [sdkman](https://github.com/sdkman/sdkman-cli)  | 5,000+       | Bash,Groovy | Shim   | ❌                     |
-| [mise](https://github.com/jdxcode/mise)           | 2,000+       | Rust        | PATH   | ✅                     |
+| [spack](https://github.com/spack/spack)         | 4,500+       | Python      | ❔      | ❌                     |
+| [vfox](https://github.com/version-fox/vfox)     | 3,100+       | Go          | ❔      | ✅                     |
+| [anyenv](https://github.com/anyenv/anyenv)      | 1,800+       | Bash        | ❔      | ❌                     |
+| [vmr](https://github.com/gvcgo/version-manager) | 925+         | Go          | ❔      | ❌                     |
 | [Hermit](https://github.com/cashapp/hermit)     | 500+         | Go,HCL      | ❔      | ❌                     |
 | [aqua](https://github.com/aquaproj/aqua)        | 300+         | Go          | ❔      | ❌                     |
-| [proto](https://github.com/moonrepo/proto)      | 445+         | Rust        | ?      | ❌                     |
+| [proto](https://github.com/moonrepo/proto)      | 445+         | Rust        | ❔      | ❌                     |
 | [Woof](https://github.com/version-manager/woof) | 21+          | Bash,jq     | PATH   | ✅                     |
 
 ## Supported Interfaces
@@ -27,6 +32,7 @@ Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org)
 | [aqua](https://github.com/aquaproj/aqua)        | ✅   | ✅   | ❌   |
 | [proto](https://github.com/moonrepo/proto)      | ✅   | ❔   | ❔   |
 | [Woof](https://github.com/version-manager/woof) | ✅   | ✅   | ❌   |
+| [vmr](https://github.com/gvcgo/version-manager) | ✅   | ✅   | ❌   |
 
 ## Custom
 
