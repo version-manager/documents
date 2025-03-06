@@ -2,13 +2,13 @@
 
 Meta version managers are generic enough to support multiple languages, unlike "regular" version managers.
 
-Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org) are intentionally omitted. They are different systems entirely.
+Note that systems like [Nix](https://nixos.org) and [Guix](https://guix.gnu.org) are intentionally omitted. They are completely different systems.
 
 ## Support Matrix
 
 | Name                                            | GitHub Stars | Language    | Method | Uses `.tool-versions` |
 | ----------------------------------------------- | ------------ | ----------- | ------ | --------------------- |
-| [asdf](https://github.com/asdf-vm/asdf)         | 17,000+      | Bash        | Shim   | ✅                     |
+| [asdf](https://github.com/asdf-vm/asdf)         | 23,000+      | Bash        | Shim   | ✅                     |
 | [mise](https://github.com/jdx/mise)             | 13,000+      | Rust        | PATH   | ✅                     |
 | [pkgx](https://github.com/pkgxdev/pkgx)         | 9,200+       | Rust        | ❔     | ❌                     |
 | [sdkman](https://github.com/sdkman/sdkman-cli)  | 5,000+       | Bash,Groovy | Shim   | ❌                     |
